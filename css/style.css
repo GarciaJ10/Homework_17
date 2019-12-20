@@ -1,0 +1,121 @@
+html {
+    font-family: 'Abel', sans-serif; 
+    background-color: #e5e5e5
+}
+    /*Accent bars */
+
+    .Thin_Bar {
+        background-color: black;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 1%;
+        margin-right: 10%;
+        margin-left: 55%;
+        width: 700px;
+        height: 15px;
+        /*margin: 1% 10% 0 55%;*/
+    }
+    .Thick_Bar {
+        display: flex;
+        background-color: black;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 1%;
+        margin-right: 10%;
+        margin-left: 55%;
+        width: 700px;
+        height: 50px;
+        /*margin: 1% 10% 0 55%;*/
+    }
+    /*Naviation bar*/ 
+    .Top_Nav {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        margin-left: 50%;
+        margin-right: 10%;
+        /*background-color: blue;*/
+    }
+    /*Header area*/
+    /*
+    .Header {
+        display: flex;
+        align-items: flex-start;
+        margin-right: 50%;
+        margin-left: 10%;
+        background-color: blueviolet;
+    }
+    */
+    .Header h1 {
+        display: flex;
+        margin-right: 50%;
+        margin-left: 10%;
+        font-size: 3rem;
+        width: fit-content;
+        /*background-color: brown;*/
+    }
+    .Content p {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-left: 10%;
+        margin-right: 55%;
+        width: 180px;
+        border: solid black;
+        padding: 3px;
+        /*background-color: cadetblue;*/
+        /*flex-direction: column;*/
+    }
+    /*Cards area*/
+    .row1 {
+        display:flex;
+        justify-content: space-evenly;
+        background-color: pink;
+        margin-left: 35%;
+        margin-top: -23%;
+        margin-bottom: 1%;
+    }
+    .row1 h2 {
+        background-color: powderblue;
+        padding: 8% 8% 8% 8%;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .row2 {
+        display:flex;
+        justify-content: space-evenly;
+        background-color: red;
+        margin-left: 35%;
+        margin-bottom: 1%;
+    }
+    .row2 h2 {
+        background-color: orange;
+        padding: 8% 8% 8% 8%;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    /*Start footer area*/
+    .Footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5%;
+        /*background-color: darkgoldenrod;*/
+    }
+    
+    .Icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-right: 35%;
+        margin-left: 35%;
+        margin-top: -4%;
+    }
+
+        .Icons a {
+            width: 44px;
+            height: 44px;
+        }
+
